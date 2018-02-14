@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[About to begin executing test Random Test]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing TC_001.initialize]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing TC_001.initialize]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing TC_001.execute]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing TC_001.execute]]>
+    </line>
+    <line>
+      <![CDATA[TestName = null]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in testCases.TC_001]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing TC_001.close]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing TC_001.close]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="27110" started-at="2018-02-14T05:55:33Z" finished-at="2018-02-14T05:56:00Z">
+    <groups>
+    </groups>
+    <test name="Random Test" duration-ms="27110" started-at="2018-02-14T05:55:33Z" finished-at="2018-02-14T05:56:00Z">
+      <class name="testCases.TC_001">
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:testCases.TC_001@7a3d45bd]" name="initialize" is-config="true" duration-ms="10355" started-at="2018-02-14T11:25:33Z" finished-at="2018-02-14T11:25:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing TC_001.initialize]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="execute()[pri:0, instance:testCases.TC_001@7a3d45bd]" name="execute" duration-ms="14395" started-at="2018-02-14T11:25:43Z" finished-at="2018-02-14T11:25:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing TC_001.execute]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing TC_001.execute]]>
+            </line>
+            <line>
+              <![CDATA[TestName = null]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in testCases.TC_001]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing TC_001.close]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- execute -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testCases.TC_001@7a3d45bd]" name="close" is-config="true" duration-ms="2326" started-at="2018-02-14T11:25:58Z" finished-at="2018-02-14T11:26:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing TC_001.close]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.TC_001 -->
+    </test> <!-- Random Test -->
+  </suite> <!-- Suite -->
+</testng-results>

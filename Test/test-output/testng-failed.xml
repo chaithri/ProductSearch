@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="utility.Listener"/>
+  </listeners>
+  <test name="Random Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.TC_001">
+        <methods>
+          <include name="execute"/>
+          <include name="initialize"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- testCases.TC_001 -->
+    </classes>
+  </test> <!-- Random Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
