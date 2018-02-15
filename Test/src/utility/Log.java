@@ -6,8 +6,9 @@ import org.apache.log4j.Logger;
 
 // Initialize Log4j logs
 
-	 private static Logger Log = Logger.getLogger(Log.class.getName());//
-
+	 private static Logger Log = Logger.getLogger(Log.class.getName());
+	 
+	
  // This is to print log for the beginning of the test case, as we usually run so many test cases as a test suite
 
  public static void startTestCase(String sTestCaseName){
@@ -30,13 +31,6 @@ import org.apache.log4j.Logger;
 
 	Log.info("XXXXXXXXXXXXXXXXXXXXXXX             "+"-E---N---D-"+"             XXXXXXXXXXXXXXXXXXXXXX");
 
-	Log.info("X");
-
-	Log.info("X");
-
-	Log.info("X");
-
-	Log.info("X");
 
 	}
 

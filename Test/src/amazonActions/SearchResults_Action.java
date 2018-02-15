@@ -1,18 +1,11 @@
 package amazonActions;
 
-import org.openqa.selenium.WebDriver;
-
 import pageObjects.AmazonSearchResultsPage;
-import pageObjects.DriverClass;
 import utility.AccessExcel;
 import utility.Log;
 
-public class SearchResults_Action extends DriverClass{
+public class SearchResults_Action {
 	
-	public SearchResults_Action(WebDriver driver) {
-		super(driver);
-		
-	}
 
 	private static String s;
 
@@ -31,10 +24,11 @@ public class SearchResults_Action extends DriverClass{
 	public static String getProductPrice(int i) throws Exception{
 		try {
 			
-				s = AmazonSearchResultsPage.prodPrice(i).getText();
+				s = AmazonSearchResultsPage.prodPrice(i).getAttribute("innerText");
+				System.out.println(s);
 		}
 		catch(Exception e) {
-			Log.error("Error retrieving product names");
+			Log.error("Error retrieving product price");
 			throw e;
 		}
 		return s;
@@ -42,10 +36,12 @@ public class SearchResults_Action extends DriverClass{
 	
 	public static void execute() throws Exception{
 		try {
-			for(int i=0;i<5;i++) {
+			for(int i=0;i<20;i++) {
 				AccessExcel.createRow(i);
 				AccessExcel.setCellData(getProductName(i),0);
+				Log.info("Prod name entered to excel sheet"+i);
 				AccessExcel.setCellData(getProductPrice(i),1);
+				Log.info("Prod price entered to excel sheet"+i);
 			}
 				
 		}

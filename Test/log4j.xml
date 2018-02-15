@@ -9,6 +9,7 @@
 <param name="Threshold" value="INFO" />
 
 <param name="File" value="logfile.log"/>
+<param name="Append" value="false"/>
 
 <layout class="org.apache.log4j.PatternLayout">
 
