@@ -32,12 +32,12 @@
       <![CDATA[Completed executing TC_001.close]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="35431" started-at="2018-02-15T14:50:33Z" finished-at="2018-02-15T14:51:08Z">
+  <suite name="Suite" duration-ms="49136" started-at="2018-02-16T05:15:05Z" finished-at="2018-02-16T05:15:54Z">
     <groups>
     </groups>
-    <test name="Random Test" duration-ms="35431" started-at="2018-02-15T14:50:33Z" finished-at="2018-02-15T14:51:08Z">
+    <test name="Random Test" duration-ms="49136" started-at="2018-02-16T05:15:05Z" finished-at="2018-02-16T05:15:54Z">
       <class name="testCases.TC_001">
-        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:testCases.TC_001@7a3d45bd]" name="initialize" is-config="true" duration-ms="10797" started-at="2018-02-15T20:20:33Z" finished-at="2018-02-15T20:20:44Z">
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:testCases.TC_001@7a3d45bd]" name="initialize" is-config="true" duration-ms="12540" started-at="2018-02-16T10:45:05Z" finished-at="2018-02-16T10:45:18Z">
           <params>
             <param index="0">
               <value>
@@ -51,7 +51,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="execute()[pri:0, instance:testCases.TC_001@7a3d45bd]" name="execute" duration-ms="22293" started-at="2018-02-15T20:20:44Z" finished-at="2018-02-15T20:21:06Z">
+        <test-method status="PASS" signature="execute()[pri:0, instance:testCases.TC_001@7a3d45bd]" name="execute" duration-ms="34175" started-at="2018-02-16T10:45:18Z" finished-at="2018-02-16T10:45:52Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing TC_001.execute]]>
@@ -73,7 +73,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- execute -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testCases.TC_001@7a3d45bd]" name="close" is-config="true" duration-ms="2310" started-at="2018-02-15T20:21:06Z" finished-at="2018-02-15T20:21:08Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:testCases.TC_001@7a3d45bd]" name="close" is-config="true" duration-ms="2385" started-at="2018-02-16T10:45:52Z" finished-at="2018-02-16T10:45:54Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing TC_001.close]]>

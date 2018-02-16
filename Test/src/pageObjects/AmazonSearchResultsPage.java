@@ -52,15 +52,16 @@ public class AmazonSearchResultsPage extends DriverClass{
 		try {
 			//*[@id="result_0"]/div/div[5]/div[1]/a/span/span[2]/span[2]
 			//*[@id="result_1"]/div/div[5]/div[1]/a/span/span[1]
-			WebDriverWait wait = new WebDriverWait(driver, 10);
+			WebDriverWait wait = new WebDriverWait(driver, 15);
 			wait.until(ExpectedConditions.presenceOfNestedElementLocatedBy(searchResults(i),By.xpath(".//div/div[5]/div[1]/a/span/span[1]")));
 			price=searchResults(i).findElement(By.xpath(".//div/div[5]/div[1]/a/span/span[1]"));
-			Log.info("Prod price is "+price.getAttribute("innerText"));
+			Log.info("Prod price is "+price.getAttribute("textContent"));
 		}
 		finally {
 			try {
 				
 				price = searchResults(i).findElement(By.xpath(".//div/div[5]/div/a/span[1]"));
+				Log.info("prod price is "+price.getAttribute("textContent"));
 				
 			}
 			catch(Exception e) {

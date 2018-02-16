@@ -40,7 +40,7 @@ public class TC_001 {
 			driver = new ChromeDriver();
 		}
 		
-		driver.manage().timeouts().implicitlyWait(3,TimeUnit.SECONDS) ;
+		driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS) ;
 		
 		driver.get(Constant.amazon);
 		

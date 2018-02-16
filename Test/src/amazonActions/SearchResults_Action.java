@@ -24,7 +24,7 @@ public class SearchResults_Action {
 	public static String getProductPrice(int i) throws Exception{
 		try {
 			
-				s = AmazonSearchResultsPage.prodPrice(i).getAttribute("innerText");
+				s = AmazonSearchResultsPage.prodPrice(i).getText();
 				System.out.println(s);
 		}
 		catch(Exception e) {
@@ -41,7 +41,7 @@ public class SearchResults_Action {
 				AccessExcel.setCellData(getProductName(i),0);
 				Log.info("Prod name entered to excel sheet"+i);
 				AccessExcel.setCellData(getProductPrice(i),1);
-				Log.info("Prod price entered to excel sheet"+i);
+				Log.info("Prod price entered to excel sheet");
 			}
 				
 		}
