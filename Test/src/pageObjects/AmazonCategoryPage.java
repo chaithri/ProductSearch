@@ -12,6 +12,7 @@ public class AmazonCategoryPage extends DriverClass{
 
 	public AmazonCategoryPage(WebDriver driver) {
 		super(driver);
+		
 	}
 	
 	public static WebElement televisions() throws Exception{
